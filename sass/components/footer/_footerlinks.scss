@@ -1,0 +1,44 @@
+.footer__container-link {
+  margin-left: 70px;
+}
+
+.footer__appeal {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  color: $primary-white-color;
+}
+
+.footer__list-svg {
+  display: flex;
+}
+.footer__mess {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer__list-link {
+  display: block;
+  width: 44px;
+  height: 44px;
+
+  transition: background-color $animation-duration $animation-timing;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.footer__svg {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+  fill: $primary-white-color;
+}

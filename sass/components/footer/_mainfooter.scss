@@ -1,0 +1,9 @@
+.footer__block {
+  display: flex;
+  align-items: baseline;
+}
+
+@import './footerlogo';
+@import './blockinfo';
+@import './footerlinks';
+@import './footerform';

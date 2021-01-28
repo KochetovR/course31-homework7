@@ -1,0 +1,75 @@
+.clints__title {
+  padding-top: 94px;
+  margin-bottom: 50px;
+
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.clients__list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.clients__item {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.clients__link {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: color, fill;
+  transition: $animation-duration $animation-timing;
+
+  color: $primary-text-color;
+  fill: $svg-team-color;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    cursor: pointer;
+    color: $accent-color;
+    fill: $accent-color;
+    cursor: pointer;
+  }
+}
+
+.clients__svg1 {
+  width: 44px;
+  height: 49px;
+  margin: 20px 63px;
+}
+.clients__svg2 {
+  width: 40px;
+  height: 52px;
+  margin: 19px 65px;
+}
+.clients__svg3 {
+  width: 41px;
+  height: 43px;
+  margin: 24px 64px 23px 65px;
+}
+.clients__svg4 {
+  width: 80px;
+  height: 42px;
+  margin: 24px 45px;
+}
+.clients__svg5 {
+  width: 59px;
+  height: 47px;
+  margin: 22px 55px 21px 56px;
+}
+.clients__svg6 {
+  width: 88px;
+  height: 45px;
+  margin: 22px 41px;
+}

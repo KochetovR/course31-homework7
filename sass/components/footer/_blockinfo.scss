@@ -1,0 +1,25 @@
+.footer__address {
+  display: block;
+  margin-bottom: 9px;
+
+  color: $primary-white-color;
+  line-height: 1.71;
+  font-style: normal;
+}
+.footer__item:first-child {
+  margin-bottom: 9px;
+}
+.footer__contacts {
+  display: block;
+
+  transition: color $animation-duration $animation-timing;
+
+  color: $footer-color;
+  line-height: 1.71;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: $accent-color;
+  }
+}
