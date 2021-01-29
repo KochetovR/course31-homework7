@@ -28,7 +28,7 @@
   border-radius: 4px;
 
   transition-property: color, fill;
-  transition: $animation-duration $animation-timing;
+  @extend %animation;
 
   color: $primary-text-color;
   fill: $svg-team-color;

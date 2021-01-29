@@ -30,24 +30,24 @@
 .card__title {
   margin-bottom: 4px;
   color: $title-text-color;
-  font-weight: bold;
+  font-weight: $secondary-font-weight;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: $secondary-letter-spacing;
   text-decoration: none;
 }
 .card__filter {
   color: $primary-text-color;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 1.87;
+  font-size: $secondary-font-size;
+  line-height: $third-line-height;
   text-decoration: none;
 }
 .card__link {
   position: relative;
   display: block;
 
-  transition: box-shadow $animation-duration $animation-timing;
+  @include animation(box-shadow);
 
   text-decoration: none;
 
@@ -79,7 +79,7 @@
   line-height: 1.55;
 
   transform: translateY(100%);
-  transition: $animation-duration $animation-timing;
+  @include animation(transform);
 
   .card__link:hover &,
   .card__link:focus & {

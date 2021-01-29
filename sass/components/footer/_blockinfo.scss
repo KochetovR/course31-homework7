@@ -3,7 +3,7 @@
   margin-bottom: 9px;
 
   color: $primary-white-color;
-  line-height: 1.71;
+  line-height: $secondary-line-height;
   font-style: normal;
 }
 .footer__item:first-child {
@@ -11,11 +11,10 @@
 }
 .footer__contacts {
   display: block;
-
-  transition: color $animation-duration $animation-timing;
+  @include animation(color);
 
   color: $footer-color;
-  line-height: 1.71;
+  line-height: $secondary-line-height;
   text-decoration: none;
 
   &:focus,

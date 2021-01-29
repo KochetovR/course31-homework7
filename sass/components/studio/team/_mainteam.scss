@@ -28,14 +28,14 @@
   margin-bottom: 10px;
 
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: $secondary-font-size;
+  line-height: $fourthline-height;
 }
 .team__skill {
   margin-bottom: 16px;
 
   font-weight: normal;
-  font-size: 16px;
+  font-size: $secondary-font-size;
   line-height: 1.9;
 }
 .team__social-list {
@@ -53,7 +53,7 @@
   fill: $svg-team-color;
 
   transition-property: color, fill;
-  transition: $animation-duration $animation-timing;
+  @extend %animation;
 
   &:last-child {
     margin-right: 0px;

@@ -1,3 +1,12 @@
+.header__div, .nav, .contacts__list, .modal__label-checkbox, .works__text, .footer__button {
+  display: flex;
+  align-items: center;
+}
+
+.contacts__link, .modal__input, .team__social-link, .clients__link, .examples__button {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   background-color: #ffffff;
   color: #757575;
@@ -17,16 +26,6 @@ body {
   margin: -1px;
 }
 
-h2,
-h3 {
-  margin: 0;
-  color: #212121;
-}
-
-p {
-  margin: 0;
-}
-
 .list {
   list-style: none;
   padding-left: 0;
@@ -43,13 +42,18 @@ p {
   padding-right: 15px;
 }
 
-header {
-  border-bottom: 1px;
+h2,
+h3 {
+  margin: 0;
+  color: #212121;
 }
 
-.header__div {
-  display: flex;
-  align-items: center;
+p {
+  margin: 0;
+}
+
+header {
+  border-bottom: 1px;
 }
 
 .logo {
@@ -67,8 +71,6 @@ header {
 }
 
 .nav {
-  display: flex;
-  align-items: center;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -114,9 +116,7 @@ header {
 }
 
 .contacts__list {
-  display: flex;
   margin-left: auto;
-  align-items: center;
 }
 
 .contacts__item:first-child {
@@ -127,7 +127,6 @@ header {
   display: block;
   padding: 32px 0;
   transition-property: color, fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #757575;
   fill: #757575;
   text-decoration: none;
@@ -206,7 +205,7 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -239,7 +238,7 @@ header {
   margin-right: 8px;
   padding: 0px;
   transition-property: fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #ffffff;
   border: 0px;
 }
@@ -288,7 +287,6 @@ header {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input:hover, .modal__input:focus {
@@ -304,7 +302,7 @@ header {
   top: 29px;
   left: 12px;
   transition-property: fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input:hover + .modal__svg,
@@ -314,8 +312,6 @@ header {
 
 .modal__label-checkbox {
   position: relative;
-  display: flex;
-  align-items: center;
 }
 
 .modal__text-checkbox {
@@ -373,7 +369,7 @@ header {
 }
 
 .modal__label-checkbox a {
-  line-height: 1.7;
+  line-height: 1.71;
   color: #2196f3;
 }
 
@@ -389,7 +385,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0;
   transition-property: background;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button-submit:hover, .modal__button-submit:focus {
@@ -401,7 +397,7 @@ header {
 .modal__button-submit span {
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -487,8 +483,6 @@ header {
   bottom: 0;
   width: 100%;
   height: 70px;
-  display: flex;
-  align-items: center;
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
@@ -549,7 +543,6 @@ header {
   color: #757575;
   fill: #afb1b8;
   transition-property: color, fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__social-link:last-child {
@@ -597,7 +590,6 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition-property: color, fill;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #757575;
   fill: #afb1b8;
 }
@@ -670,7 +662,6 @@ header {
   border-radius: 4px;
   cursor: pointer;
   transition-property: background-color, color, box-shadow;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #f5f4fa;
   color: #212121;
   font-family: inherit;
@@ -765,7 +756,7 @@ header {
   font-size: 18px;
   line-height: 1.55;
   transform: translateY(100%);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card__link:hover .card__overlay-text,
@@ -888,8 +879,6 @@ header {
 }
 
 .footer__button {
-  display: flex;
-  align-items: center;
   width: 200px;
   height: 50px;
   margin-top: 36px;

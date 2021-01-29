@@ -23,7 +23,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: $secondary-letter-spacing;
   text-transform: uppercase;
   text-align: center;
 }
@@ -35,13 +35,13 @@
   min-width: 200px;
   border: 0;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: $primary-shadow;
   outline: 0;
 
   background-color: $accent-color;
   color: $primary-white-color;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
+  font-weight: $secondary-font-weight;
+  font-size: $secondary-font-size;
+  line-height: $third-line-height;
+  letter-spacing: $secondary-letter-spacing;
 }
