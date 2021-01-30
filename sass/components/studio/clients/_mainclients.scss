@@ -27,7 +27,7 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  transition-property: color, fill;
+  transition-property: color, fill, border;
   @extend %animation;
 
   color: $primary-text-color;

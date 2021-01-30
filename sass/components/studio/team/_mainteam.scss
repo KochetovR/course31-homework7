@@ -52,7 +52,8 @@
   color: $primary-text-color;
   fill: $svg-team-color;
 
-  transition-property: color, fill;
+  transition-property: color, fill, background-color, border-radius;
+
   @extend %animation;
 
   &:last-child {
