@@ -4,7 +4,7 @@
 }
 
 .contacts__link, .modal__input, .team__social-link, .clients__link, .examples__button {
-  transition: 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -91,7 +91,7 @@ header {
   position: relative;
   display: block;
   padding: 32px 0;
-  transition: color 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #212121;
   text-decoration: none;
 }
@@ -205,7 +205,7 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -238,7 +238,7 @@ header {
   margin-right: 8px;
   padding: 0px;
   transition-property: fill;
-  transition: fill 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #ffffff;
   border: 0px;
 }
@@ -302,7 +302,7 @@ header {
   top: 29px;
   left: 12px;
   transition-property: fill;
-  transition: fill 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input:hover + .modal__svg,
@@ -385,7 +385,7 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0;
   transition-property: background;
-  transition: background 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__button-submit:hover, .modal__button-submit:focus {
@@ -730,7 +730,7 @@ header {
 .card__link {
   position: relative;
   display: block;
-  transition: box-shadow 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
 }
 
@@ -756,7 +756,7 @@ header {
   font-size: 18px;
   line-height: 1.55;
   transform: translateY(100%);
-  transition: transform 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card__link:hover .card__overlay-text,
@@ -797,7 +797,7 @@ header {
 
 .footer__contacts {
   display: block;
-  transition: color 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
   text-decoration: none;
@@ -833,7 +833,7 @@ header {
   display: block;
   width: 44px;
   height: 44px;
-  transition: background-color 5000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
