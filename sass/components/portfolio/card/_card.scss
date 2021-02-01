@@ -7,6 +7,7 @@
 }
 .card__item {
   margin-right: 30px;
+  outline: 1px solid #eeeeee;
 
   &:nth-child(3n + 3) {
     margin-right: 0;
@@ -23,9 +24,6 @@
 /* content portfolio */
 .card__info {
   padding: 20px 0px 20px 24px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
 .card__title {
   margin-bottom: 4px;
