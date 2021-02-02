@@ -1,4 +1,4 @@
-.header__div, .nav, .contacts__list, .modal__label-checkbox, .works__text, .footer__button {
+.header__div, .nav, .contacts__list, .contacts__link, .modal__label-checkbox, .works__text, .footer__button {
   display: flex;
   align-items: center;
 }
@@ -124,7 +124,6 @@ header {
 }
 
 .contacts__link {
-  display: block;
   padding: 32px 0;
   transition-property: color, fill;
   color: #757575;

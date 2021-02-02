@@ -8,7 +8,7 @@
 }
 
 .contacts__link {
-  display: block;
+  @extend %flex;
   padding: 32px 0;
 
   transition-property: color, fill;
