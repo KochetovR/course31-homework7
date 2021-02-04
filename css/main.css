@@ -34,14 +34,6 @@ body {
   margin-bottom: 0;
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 h2,
 h3 {
   margin: 0;
@@ -50,6 +42,14 @@ h3 {
 
 p {
   margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 header {

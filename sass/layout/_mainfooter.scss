@@ -3,7 +3,7 @@
   align-items: baseline;
 }
 
-@import './footerlogo';
+@import '../components/footerlogo';
 @import './blockinfo';
 @import './footerlinks';
-@import './footerform';
+@import '../components/footerform';
